@@ -62,7 +62,7 @@
         "pnpm": ">=8"
     },
     "build": {
-        "appId": "dev.vencord.vesktop",
+        "appId": "io.github.Cootshk.vesktop",
         "productName": "Vesktop",
         "files": [
             "!*",
