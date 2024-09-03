@@ -25,6 +25,7 @@
     },
     "dependencies": {
         "arrpc": "github:OpenAsar/arrpc#c62ec6a04c8d870530aa6944257fe745f6c59a24",
+        "dmg-builder": "25.0.0-alpha.10",
         "electron-updater": "^6.2.1"
     },
     "optionalDependencies": {
@@ -181,9 +182,9 @@
             "provider": "github"
         },
         "rpm": {
-              "fpm": [
+            "fpm": [
                 "--rpm-rpmbuild-define=_build_id_links none"
-              ]
+            ]
         }
     },
     "pnpm": {
@@ -192,4 +193,3 @@
         }
     }
 }
-
